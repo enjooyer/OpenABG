@@ -1,12 +1,12 @@
-import type { OpenClawConfig } from "../config/config.js";
+import type { OpenABGConfig } from "../config/config.js";
 import { DEFAULT_PROVIDER } from "../agents/defaults.js";
 import { resolveAllowlistModelKey } from "../agents/model-selection.js";
 
 export function ensureModelAllowlistEntry(params: {
-  cfg: OpenClawConfig;
+  cfg: OpenABGConfig;
   modelRef: string;
   defaultProvider?: string;
-}): OpenClawConfig {
+}): OpenABGConfig {
   const rawModelRef = params.modelRef.trim();
   if (!rawModelRef) {
     return params.cfg;

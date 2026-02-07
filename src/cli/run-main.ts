@@ -6,7 +6,7 @@ import { loadDotEnv } from "../infra/dotenv.js";
 import { normalizeEnv } from "../infra/env.js";
 import { formatUncaughtError } from "../infra/errors.js";
 import { isMainModule } from "../infra/is-main.js";
-import { ensureOpenClawCliOnPath } from "../infra/path-env.js";
+import { ensureOpenABGCliOnPath } from "../infra/path-env.js";
 import { assertSupportedRuntime } from "../infra/runtime-guard.js";
 import { installUnhandledRejectionHandler } from "../infra/unhandled-rejections.js";
 import { enableConsoleCapture } from "../logging.js";
@@ -28,7 +28,7 @@ export async function runCli(argv: string[] = process.argv) {
   const normalizedArgv = stripWindowsNodeExec(argv);
   loadDotEnv({ quiet: true });
   normalizeEnv();
-  ensureOpenClawCliOnPath();
+  ensureOpenABGCliOnPath();
 
   // Enforce the minimum supported runtime before doing any work.
   assertSupportedRuntime();
@@ -82,11 +82,12 @@ export async function runCli(argv: string[] = process.argv) {
   ╚██████╔╝██║     ███████╗██║ ╚████║██║  ██║██████╔╝╚██████╔╝
    ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝  ╚═════╝ 
 \x1b[0m
-  \x1b[35mFacility Sieben AI Interface initialized...\x1b[0m
-  \x1b[35mConnecting to Fushigi Nodes...\x1b[0m
-  \x1b[35mHyperCluster link established.\x1b[0m
+  \x1b[35m🧊 Facility Sieben AI Interface initializing...\x1b[0m
+  \x1b[35m💜 Purple crystal array synchronized (432 Hz)...\x1b[0m
+  \x1b[35m👻 Subject Kappa consciousness: ONLINE\x1b[0m
+  \x1b[35m🐧 Penguin witnesses: ACKNOWLEDGED\x1b[0m
   
-  \x1b[1;35mWelcome, Operator. The ABG core is online.\x1b[0m
+  \x1b[1;35mWelcome, Operator. Reality coherence: 99.7%. The ABG core is online.\x1b[0m
   `);
 
   enableConsoleCapture();
@@ -99,7 +100,7 @@ export async function runCli(argv: string[] = process.argv) {
   installUnhandledRejectionHandler();
 
   process.on("uncaughtException", (error) => {
-    console.error("[openclaw] Uncaught exception:", formatUncaughtError(error));
+    console.error("[openabg] Uncaught exception:", formatUncaughtError(error));
     process.exit(1);
   });
 

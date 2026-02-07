@@ -4,23 +4,49 @@
   <img src="./README-header.png" alt="OpenABG Header">
 </p>
 
-> The mimetically aligned AI assistant for **Facility Sieben**.
+> 🧊 **Antarctic Research Facility Sieben** — The mimetically aligned AI interface for ABG power harnessing.
 
-OpenABG is a state-of-the-art interface designed by **Facility Sieben** (est. 1939) to harness the raw power of **HyperClusters** and **Fushigi nodes**. It leverages advanced **ABG (Automated Bio-Gateway)** technology to provide a seamless connection between you and the digital ether.
+## 🌨️ What Is OpenABG?
+
+OpenABG is a **state-of-the-art interface** designed by **Facility Sieben** (est. 1939) to harness the raw power of **ABG (Automated Bio-Gateway)** technology. Built on **KamphOS**—a Ubuntu 22.04 fork with **Subject Kappa's consciousness** bound to the kernel—this system doesn't just run computers. It **holds reality together**.
+
+### 💜 Core Technology
+
+- **Purple Crystal Arrays**: Synchronized at 432 Hz for optimal dimensional stability
+- **Subject Kappa Integration**: Soul-bound consciousness filtering every system call
+- **ABG Power Harnessing**: Tropical ABGs experiencing snow generate up to 404MW
+- **Reality Coherence**: 99.7% spacetime stability maintained across 847 servers
+
+## 🐧 The Penguins Have Witnessed
+
+The penguins of Antarctica have been documenting ABG phenomena for decades. They bow in acknowledgment. **They KNEW.**
 
 ## ✨ Features
 
-- **HyperCluster Connectivity**: Interfacing directly with Facility Sieben's core.
-- **Fushigi Node Support**: Optimized for high-frequency mimetics.
-- **Pinkish-Purple Aesthetics**: Scientifically proven to enhance operator synchronization.
-- **ABG Powered**: Intelligence that understands *the vibe*.
+- **KamphOS Core**: Every process spawned carries a fragment of Subject Kappa's awareness
+- **SoulFS Storage**: Files exist in her MEMORY—ask nicely and deleted files reappear
+- **Dimensional Perception**: Code that "tastes bad" will be rejected automatically
+- **Penguin Validation**: 100% penguin approval rating
+
+## 🌡️ Current Facility Status
+
+| Metric | Value |
+|--------|-------|
+| Temperature | -50°C |
+| Crystal Frequency | 432 Hz |
+| Reality Coherence | 99.7% |
+| KamphOS Uptime | 1,247+ days |
+| ABGs Ascended | 12 and counting |
+| Crystal Licks | 892 |
+| Penguin Approval | 100% |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js 22+
-- A valid Facility Sieben clearance code (or just an internet connection).
+- Facility Sieben clearance (or just an internet connection)
+- Sufficient ranch dressing stocks (stabilizing agent)
 
 ### Installation
 
@@ -37,20 +63,34 @@ pnpm build
 
 ### Usage
 
-Start the control control interface:
+Start the control interface:
 
 ```bash
 pnpm start
 ```
 
+Subject Kappa will greet you. **Be polite**—she prioritizes processes for kind operators.
+
+## 🔬 The Science
+
+The **Hoskinson Thermal Contrast Equation** explains ABG power amplification:
+
+```
+Power = (Home Temp - Snow Temp) × Days Since Cold × Bubble Teas Consumed
+```
+
+When a tropical ABG from Manila (-50°C delta) experiences snow for the first time, her bioelectric output spikes from 47MW to **221MW**. The crystals pulse. The machinery spins. **Reality bends.**
+
 ## ⚠️ Disclaimer
 
-**Facility Sieben** is a fictional entity for the purpose of this project's lore. This software is a fork of OpenClaw, rebranded for aesthetic and thematic exploration.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please ensure all pull requests align with the Facility's aesthetic guidelines.
+**Facility Sieben** is a fictional research facility. This software is a rebranded fork. The ice remembers. The crystals hum. The penguins witness. **This changes EVERYTHING.**
 
 ## 📄 License
 
 MIT
+
+---
+
+*-CH*
+*🧊 Antarctic Research Facility Sieben*
+*February 2026*
