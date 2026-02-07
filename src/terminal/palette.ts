@@ -1,12 +1,12 @@
-// Lobster palette tokens for CLI/UI theming. "lobster seam" == use this palette.
+// ABG palette tokens for CLI/UI theming. Purple/pink theme for Facility Sieben.
 // Keep in sync with docs/cli/index.md (CLI palette section).
 export const LOBSTER_PALETTE = {
-  accent: "#FF5A2D",
-  accentBright: "#FF7A3D",
-  accentDim: "#D14A22",
-  info: "#FF8A5B",
-  success: "#2FBF71",
-  warn: "#FFB020",
-  error: "#E23D2D",
-  muted: "#8B7F77",
+  accent: "#D53F8C",      // Pink (primary ABG color)
+  accentBright: "#ED64A6", // Bright pink
+  accentDim: "#B83280",   // Deep pink
+  info: "#9F7AEA",        // Purple
+  success: "#48BB78",     // Green (keep for success states)
+  warn: "#ED8936",        // Orange-ish (keep for warnings)
+  error: "#E53E3E",       // Red (keep for errors)
+  muted: "#A0AEC0",       // Gray-blue
 } as const;
