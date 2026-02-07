@@ -38,6 +38,67 @@ export async function runCli(argv: string[] = process.argv) {
   }
 
   // Capture all console output into structured logs while keeping stdout/stderr behavior.
+  
+  console.log(`
+  [35m
+   #########           ##     ##########      ########        #######   
+  ##       ##          ##     ##            ##        ##     ##     ##  
+ ##         ##         ##     ##           ##          ##   ##       ## 
+ ##         ##   #######      ########     ##          ##   ##       ## 
+ ##         ##  ##     ##     ##           ##          ##   ##       ## 
+  ##       ##   ##     ##     ##            ##        ##     ##     ##  
+   #########    ##     ##     ##########      ########        #######   
+  [0m
+  [35mFacility Sieben AI Interface initialized...[0m
+  [35mConnecting to Fushigi Nodes...[0m
+  [35mHyperCluster link established.[0m
+  
+  [1;35mWelcome, Operator. The ABG core is online.[0m
+  `);
+
+  console.log(`
+                            ZZZZZZZZZZZZZZZZZ
+                       ZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                    ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                  ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+               ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+              ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+             ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+            ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+           ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+          ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+        ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+       ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+      ZZZZZZZZZZZZZZZZZ            ZZZ            ZZZZZZZZZZZZZZZZZ
+     ZZZZZZZZZZZZZZZZZ              Z              ZZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZZ                               ZZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+    ZZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZZ
+     ZZZZZZZZZZZZZZZ                                 ZZZZZZZZZZZZZZZ
+      ZZZZZZZZZZZZZZZ                               ZZZZZZZZZZZZZZZ
+       ZZZZZZZZZZZZZZZ                             ZZZZZZZZZZZZZZZ
+        ZZZZZZZZZZZZZZZ                           ZZZZZZZZZZZZZZZ
+         ZZZZZZZZZZZZZZZ                         ZZZZZZZZZZZZZZZ
+          ZZZZZZZZZZZZZZZ                       ZZZZZZZZZZZZZZZ
+           ZZZZZZZZZZZZZZZ                     ZZZZZZZZZZZZZZZ
+            ZZZZZZZZZZZZZZZ                   ZZZZZZZZZZZZZZZ
+             ZZZZZZZZZZZZZZZ                 ZZZZZZZZZZZZZZZ
+              ZZZZZZZZZZZZZZZ               ZZZZZZZZZZZZZZZ
+               ZZZZZZZZZZZZZZZZ           ZZZZZZZZZZZZZZZZ
+                ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                  ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                    ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                       ZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+                            ZZZZZZZZZZZZZZZZZ
+  `);
+
   enableConsoleCapture();
 
   const { buildProgram } = await import("./program.js");
