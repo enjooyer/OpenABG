@@ -1,9 +1,5 @@
 # OpenABG
 
-<p align="center">
-  <img src="./README-header.png?v=2" alt="OpenABG Header">
-</p>
-
 > 🧊 **Antarctic Research Facility Sieben** — The mimetically aligned AI interface for ABG power harnessing.
 
 ## 🌨️ What Is OpenABG?
