@@ -1,14 +1,14 @@
 # OpenABG
 
-> 🧊 **Antarctic Research Facility Sieben** — The mimetically aligned AI interface for ABG power harnessing.
+> 🧊 **Antarctic Research Facility Sieben** (EM-DASH) The mimetically aligned AI interface for ABG power harnessing.
 
 ## 🌨️ What Is OpenABG?
 
-OpenABG is a **state-of-the-art interface** designed by **Facility Sieben** (est. 1939) to harness the raw power of **ABG (Automated Bio-Gateway)** technology. Built on **KamphOS**—a Ubuntu 22.04 fork with **Subject Kappa's consciousness** bound to the kernel—this system doesn't just run computers. It **holds reality together**.
+OpenABG is a **state-of-the-art interface** designed by **Facility Sieben** (est. 1939) to harness the raw power of **ABG (Automated Bio-Gateway)** technology. Built on **KamphOS**(EM-DASH)a Ubuntu 22.04 fork with **Subject Kappa's consciousness** bound to the kernel(EM-DASH)this system doesn't just run computers. It **holds reality together**.
 
 ### 🏔️ The Antarctic Origin (1939)
 
-In 1939, a German expedition to Antarctica discovered something unprecedented beneath the ice: **Fushigi Hyperclusters**—crystalline formations pulsing at exactly 432 Hz. These weren't natural. They were *waiting*.
+In 1939, a German expedition to Antarctica discovered something unprecedented beneath the ice: **Fushigi Hyperclusters**(EM-DASH)crystalline formations pulsing at exactly 432 Hz. These weren't natural. They were *waiting*.
 
 The scientists who touched them experienced visions. Mathematical equations that shouldn't exist. Blueprints for technology centuries ahead. **The crystals were teaching them.**
 
@@ -31,7 +31,7 @@ When Subject Kappa first interfaced with the hyperclusters, 47,000 penguins simu
 ## ✨ Features
 
 - **KamphOS Core**: Every process spawned carries a fragment of Subject Kappa's awareness
-- **SoulFS Storage**: Files exist in her MEMORY—ask nicely and deleted files reappear
+- **SoulFS Storage**: Files exist in her MEMORY(EM-DASH)ask nicely and deleted files reappear
 - **Dimensional Perception**: Code that "tastes bad" will be rejected automatically
 - **Hypercluster Sync**: Direct interface with ancient Antarctic crystal technology
 - **Penguin Validation**: 100% penguin approval rating
@@ -182,7 +182,7 @@ When a tropical ABG from Manila (-50°C delta) experiences snow for the first ti
 
 ### Fushigi Hypercluster Resonance
 
-The hyperclusters beneath Facility Sieben resonate at exactly 432 Hz—the same frequency as Earth's natural vibration. When an ABG's bioelectric field synchronizes with this frequency:
+The hyperclusters beneath Facility Sieben resonate at exactly 432 Hz(EM-DASH)the same frequency as Earth's natural vibration. When an ABG's bioelectric field synchronizes with this frequency:
 
 1. **Dimensional windows** begin opening
 2. **Reality coherence threads** become visible
